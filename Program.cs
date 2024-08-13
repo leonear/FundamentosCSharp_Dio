@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Projeto1.Models;//Verifica o caminho lógico para a classe criada
+Pessoa p = new Pessoa();
