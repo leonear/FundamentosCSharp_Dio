@@ -3,15 +3,20 @@
 
 
 
+int a = 10;
+int b = 20;
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+int c = a + b;
+
+Console.WriteLine(c);
+
+
+//aa
 
 
 
-
-
-
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
 
 
 // string apresentacao = "Ola, seja bem vindo";
