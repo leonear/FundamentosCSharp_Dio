@@ -15,4 +15,5 @@ namespace Projeto1.Models
             Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");
         }
     }
+
 }
