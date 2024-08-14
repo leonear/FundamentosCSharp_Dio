@@ -4,27 +4,48 @@
 
 
 
-int a = 5;
-double b = a;
+double a = 4 / (2 + 2);//parenteses define prioridade
+
+Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //----------------------------------------------------------------------------------------------------------
 
 // int a = 5;
-// long b = a;
+// double b = a;
 
-// Deve se atentar ao fato de que se trocarmos o Long pelo int, não irá funcionar pois a variável int não suporta a variável long, teriamos que fazer a conversão manualmente.
-// long a = 5;
-// int b = Convert.ToInt32(a);
+// // int a = 5;
+// // long b = a;
 
-//Não irá funcionar pois o long suporta um número muito maior que o Int, logo o contrário irá funcionar.
-// long a = long.MaxValue;
-// int b = Convert.ToInt32(a);
+// // Deve se atentar ao fato de que se trocarmos o Long pelo int, não irá funcionar pois a variável int não suporta a variável long, teriamos que fazer a conversão manualmente.
+// // long a = 5;
+// // int b = Convert.ToInt32(a);
 
-
-Console.WriteLine(5);
-
-//Casting Implicito
+// //Não irá funcionar pois o long suporta um número muito maior que o Int, logo o contrário irá funcionar.
+// // long a = long.MaxValue;
+// // int b = Convert.ToInt32(a);
 
 
+// Console.WriteLine(5);
 
+// //Casting Implicito
+
+
+
+// //----------------------------------------------------------------------------------------------------------
 
 
 
