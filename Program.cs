@@ -8,17 +8,24 @@ int b = 20;
 
 int c = a + b;
 
+c = c + 5; //30 + 5
+//c += 5;
+
+
 Console.WriteLine(c);
 
 
  
 
 
-
+//----------------------------------------------------------------------------------------------------------
 // DateTime dataAtual = DateTime.Now.AddDays(5);
 // Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+//----------------------------------------------------------------------------------------------------------
 
 
+
+//----------------------------------------------------------------------------------------------------------
 // string apresentacao = "Ola, seja bem vindo";
 
 // int quantidade = 1;
@@ -34,8 +41,12 @@ Console.WriteLine(c);
 // Console.WriteLine("Valor da variavel altura: " + altura);
 // Console.WriteLine("Valor da variavel preco: " + preco);
 // Console.WriteLine("Valor da variavel condicao: " + condicao);
+//----------------------------------------------------------------------------------------------------------
 
 
+
+
+//----------------------------------------------------------------------------------------------------------
 // Pessoa pessoa1 = new Pessoa();//p é a variável, pode ter qualquer nome
 
 // pessoa1.Nome = "Leo";
