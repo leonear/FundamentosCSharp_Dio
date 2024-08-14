@@ -3,12 +3,42 @@
 
 
 
-//int a = Convert.ToInt32("5");//casting - conversão de variável
-int a = int.Parse("5");
+
+int inteiro = 5;
+string a = inteiro.ToString();
 
 Console.WriteLine(a);
 
+//Tudo pode ser convertido para String a partir do ToString().
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+//int a = Convert.ToInt32("5");//casting - conversão de variável
+//int a = int.Parse("5c"); //5c vai dar errado pois não esta no formato correto, temos que tomar cuidado quando convertemos, por que o input tem que estar de acordo com o formato iniciado.
+
+//Convert vai entender um valor nulo como 0.
+//Parse não aceita valores nulos, enviando assim uma exceção.
+
+//Console.WriteLine(a);
+
+//----------------------------------------------------------------------------------------------------------
 
 
 
