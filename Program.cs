@@ -4,26 +4,55 @@
 
 
 
-int inteiro = 5;
-string a = inteiro.ToString();
+int a = 5;
+double b = a;
 
-Console.WriteLine(a);
+// int a = 5;
+// long b = a;
 
-//Tudo pode ser convertido para String a partir do ToString().
+// Deve se atentar ao fato de que se trocarmos o Long pelo int, não irá funcionar pois a variável int não suporta a variável long, teriamos que fazer a conversão manualmente.
+// long a = 5;
+// int b = Convert.ToInt32(a);
 
-
-
-
-
-
-
-
-
+//Não irá funcionar pois o long suporta um número muito maior que o Int, logo o contrário irá funcionar.
+// long a = long.MaxValue;
+// int b = Convert.ToInt32(a);
 
 
+Console.WriteLine(5);
+
+//Casting Implicito
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+
+// Console.WriteLine(a);
+
+// //Tudo pode ser convertido para String a partir do ToString().
+
+//----------------------------------------------------------------------------------------------------------
 
 
 
