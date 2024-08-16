@@ -4,21 +4,25 @@
 
 
 int quantidadeEmEstoque = 10;
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
 
 Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque} ");
 Console.WriteLine($"Quantidade de Compra: {quantidadeCompra} ");
 Console.WriteLine($"É Possível realizar a venda? {possivelVenda}");
 
-if (possivelVenda)
+if (quantidadeCompra == 0)//Dois sinais de igual é uma comparação, um só é quando quer passar um valor para variável
+{
+    Console.WriteLine("Venda Invalida.");
+}
+else if (possivelVenda)
 {
     Console.WriteLine("Venda Realizada.");
 }
 else
 {
-    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.d");
+    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque");
 }
 
 
