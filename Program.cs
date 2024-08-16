@@ -3,22 +3,16 @@
 
 
 
-Console.WriteLine("Digite uma letra:");
-string letra = Console.ReadLine();
+bool maiorDeIdade = true;
+bool autorizacaoDoResponsavel = false;
 
-switch (letra)
+if (maiorDeIdade || autorizacaoDoResponsavel)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");    
-        break;
-    
-    default:
-        Console.WriteLine("Não é uma vogal");
-        break;
+    Console.WriteLine("Entrada liberada!");// O Pipe: || funciona como o operador OR
+}
+else
+{
+    Console.WriteLine("Entrada nao liberada!");
 }
 
 
@@ -26,6 +20,37 @@ switch (letra)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+// Console.WriteLine("Digite uma letra:");
+// string letra = Console.ReadLine();
+//
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");    
+//         break;
+//     
+//     default:
+//         Console.WriteLine("Não é uma vogal");
+//         break;
+// }
 
 
 
@@ -78,7 +103,7 @@ switch (letra)
 //difícil de ler etc.
 
 
-
+//----------------------------------------------------------------------------------------------------------
 
 
 
