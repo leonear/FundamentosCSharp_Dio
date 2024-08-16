@@ -3,20 +3,48 @@
 
 
 
-bool maiorDeIdade = true;
-bool autorizacaoDoResponsavel = false;
 
-if (maiorDeIdade || autorizacaoDoResponsavel)
+bool possuiPresencaMinima = true;
+double media = 7.8;
+
+if (possuiPresencaMinima && media < 7)
 {
-    Console.WriteLine("Entrada liberada!");// O Pipe: || funciona como o operador OR
+    Console.WriteLine("Aprovado");
 }
 else
 {
-    Console.WriteLine("Entrada nao liberada!");
+    Console.WriteLine("Reprovado");
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+// bool maiorDeIdade = true;
+// bool autorizacaoDoResponsavel = false;
+//
+// if (maiorDeIdade || autorizacaoDoResponsavel)
+// {
+//     Console.WriteLine("Entrada liberada!");// O Pipe: || funciona como o operador OR
+// }
+// else
+// {
+//     Console.WriteLine("Entrada nao liberada!");
+// }
+
+
+//----------------------------------------------------------------------------------------------------------
 
 
 
