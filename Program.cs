@@ -4,18 +4,54 @@
 
 
 
-bool possuiPresencaMinima = true;
-double media = 7.8;
 
-if (possuiPresencaMinima && media < 7)
+bool choveu = false;
+bool isLate = false;
+
+if (!choveu && !isLate)//O ! é utilizado para negar uma variável, ou seja por padrão a variável é esperada como true, se receber um ! irá esperar false.
 {
-    Console.WriteLine("Aprovado");
+    Console.WriteLine("Pedalar");
 }
 else
 {
-    Console.WriteLine("Reprovado");
+    Console.WriteLine("Pedalar outro dia!");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+// bool possuiPresencaMinima = true;
+// double media = 7.8;
+//
+// if (possuiPresencaMinima && media < 7)
+// {
+//     Console.WriteLine("Aprovado");
+// }
+// else
+// {
+//     Console.WriteLine("Reprovado");
+// }
+
+//----------------------------------------------------------------------------------------------------------
 
 
 
