@@ -3,30 +3,116 @@
 
 
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 0;
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+Console.WriteLine("Digite uma letra:");
+string letra = Console.ReadLine();
 
-
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque} ");
-Console.WriteLine($"Quantidade de Compra: {quantidadeCompra} ");
-Console.WriteLine($"É Possível realizar a venda? {possivelVenda}");
-
-if (quantidadeCompra == 0)//Dois sinais de igual é uma comparação, um só é quando quer passar um valor para variável
+switch (letra)
 {
-    Console.WriteLine("Venda Invalida.");
-}
-else if (possivelVenda)
-{
-    Console.WriteLine("Venda Realizada.");
-}
-else
-{
-    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque");
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");    
+        break;
+    
+    default:
+        Console.WriteLine("Não é uma vogal");
+        break;
 }
 
 
 
+
+
+
+
+
+
+// Console.WriteLine("Digite uma letra:");
+// string letra = Console.ReadLine();
+//
+// if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u")  
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else
+// {
+//     Console.WriteLine("Consoante");
+// }
+
+
+
+
+
+
+// if (letra == "a")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "e")
+// {
+//     Console.WriteLine("Vogal");
+// }
+//
+// else if (letra == "i")
+// {
+//     Console.WriteLine("Vogal");
+// }
+//
+// else if (letra == "o")
+// {
+//     Console.WriteLine("Vogal");
+// }
+//
+// else if (letra == "u")
+// {
+//     Console.WriteLine("Vogal");
+// }
+//
+// else
+// {
+//     Console.WriteLine("Consoante");
+// }
+//Essa é uma prática bem ruim, afinal o programa irá demorar para excutar, perderemos mais tempo escrevendo, será mais
+//difícil de ler etc.
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 0;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+//
+//
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque} ");
+// Console.WriteLine($"Quantidade de Compra: {quantidadeCompra} ");
+// Console.WriteLine($"É Possível realizar a venda? {possivelVenda}");
+//
+// if (quantidadeCompra == 0)//Dois sinais de igual é uma comparação, um só é quando quer passar um valor para variável
+// {
+//     Console.WriteLine("Venda Invalida.");
+// }
+// else if (possivelVenda)
+// {
+//     Console.WriteLine("Venda Realizada.");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque");
+// }
+
+
+//----------------------------------------------------------------------------------------------------------
 
 
 
