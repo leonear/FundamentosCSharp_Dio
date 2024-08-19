@@ -3,32 +3,70 @@
 
 
 
+Calculadora calc = new Calculadora();
+
+// calc.Somar(4, 2);
+//
+// calc.Subtrair(4 , 2);
+//
+// calc.Multiplicar(4, 2);
+//
+// calc.Dividir(4, 2);
+//
+// calc.Potencia(4, 2);
+//
+// calc.Seno(10);
+//
+// calc.Coseno(10);
+//
+// calc.Tangente(10);
+
+calc.RaizQuadrada(9);
+
+//
+// Console.WriteLine("\n-----------------------------\n");
+//
+// int numeroIncremento = 10;
+// Console.WriteLine(numeroIncremento);
+// Console.WriteLine("Incrementando o 10");
+// // numero = numero + 1;
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
+//
+// Console.WriteLine("\n-----------------------------\n");
+//
+// int numeroDecremento = 20;
+// Console.WriteLine(numeroDecremento);
+// Console.WriteLine("Decrementando o 20");
+// numeroDecremento--;
+//
+// Console.WriteLine(numeroDecremento);
 
 
-bool choveu = false;
-bool isLate = false;
-
-if (!choveu && !isLate)//O ! é utilizado para negar uma variável, ou seja por padrão a variável é esperada como true, se receber um ! irá esperar false.
-{
-    Console.WriteLine("Pedalar");
-}
-else
-{
-    Console.WriteLine("Pedalar outro dia!");
-}
 
 
 
 
+//----------------------------------------------------------------------------------------------------------
+
+
+// bool choveu = false;
+// bool isLate = false;
+//
+// if (!choveu && !isLate)//O ! é utilizado para negar uma variável, ou seja por padrão a variável é esperada como true, se receber um ! irá esperar false.
+// {
+//     Console.WriteLine("Pedalar");
+// }
+// else
+// {
+//     Console.WriteLine("Pedalar outro dia!");
+// }
+//
+//
 
 
 
-
-
-
-
-
-
+//----------------------------------------------------------------------------------------------------------
 
 
 
