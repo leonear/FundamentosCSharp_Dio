@@ -1,9 +1,77 @@
 ﻿using Projeto1.Models;//Verifica o caminho lógico para a classe criada
 
 
+int soma = 0, numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um numero(0 para parar):");
+    numero = Convert.ToInt32(Console.ReadLine());
+    
+    soma += numero;
+
+} while (numero != 0);
+
+Console.WriteLine($"O Total da soma dos números digitados é: {soma} ");
 
 
-Calculadora calc = new Calculadora();
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+// int contador = 0;
+//
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+//     contador++;
+//
+//     if (contador == 6)
+//     {
+//         break;//testando a funcao break
+//     }
+// }
+
+
+
+
+
+// int numero = 5;
+//
+// for (int contador = 0; contador < 10; contador++)
+// {
+//     Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+// }
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+// Calculadora calc = new Calculadora();
 
 // calc.Somar(4, 2);
 //
@@ -21,7 +89,7 @@ Calculadora calc = new Calculadora();
 //
 // calc.Tangente(10);
 
-calc.RaizQuadrada(9);
+// calc.RaizQuadrada(9);
 
 //
 // Console.WriteLine("\n-----------------------------\n");
@@ -43,6 +111,7 @@ calc.RaizQuadrada(9);
 // Console.WriteLine(numeroDecremento);
 
 
+//----------------------------------------------------------------------------------------------------------
 
 
 
