@@ -1,29 +1,65 @@
 ﻿using Projeto1.Models;//Verifica o caminho lógico para a classe criada
 
 
-int soma = 0, numero = 0;
 
-do
+string opcao;
+bool exibirMenu = true;
+
+while (exibirMenu)
 {
-    Console.WriteLine("Digite um numero(0 para parar):");
-    numero = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("------Menu------");
+    Console.WriteLine("1 - Cadastrar Cliente");
+    Console.WriteLine("2 - Listar Cliente");
+    Console.WriteLine("3 - Apagar Cliente");
+    Console.WriteLine("4 - Sair");
+    Console.WriteLine("Digite sua Opção:\n");
+    opcao = Console.ReadLine();
     
-    soma += numero;
+    Console.WriteLine("\n######################################\n");
 
-} while (numero != 0);
+    switch (opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de Cliente\n");
+            
+            break;
+        
+        case "2":
+            Console.WriteLine("Buscar Cliente\n");
+            break;
+        case "3":
+            Console.WriteLine("Apagar Cliente\n");
+            break;
+        case "4":
+        Console.WriteLine("Encerrar\n");
+            exibirMenu = false;
+            //Enviroment.exit(0)
+            break;
+        
+        default:
+            Console.WriteLine("Opção Inválida\n");
+            break;
+    }
+    Console.WriteLine("######################################\n");
+}
 
-Console.WriteLine($"O Total da soma dos números digitados é: {soma} ");
 
 
 
 
 
-
-
-
-
-
-
+// int soma = 0, numero = 0;
+//
+// do
+// {
+//     Console.WriteLine("Digite um numero(0 para parar):");
+//     numero = Convert.ToInt32(Console.ReadLine());
+//     
+//     soma += numero;
+//
+// } while (numero != 0);
+//
+// Console.WriteLine($"O Total da soma dos números digitados é: {soma} ");
 
 
 
