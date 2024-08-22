@@ -2,47 +2,75 @@
 
 
 
-string opcao;
-bool exibirMenu = true;
 
-while (exibirMenu)
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 91;
+
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
 {
-    Console.WriteLine("------Menu------");
-    Console.WriteLine("1 - Cadastrar Cliente");
-    Console.WriteLine("2 - Listar Cliente");
-    Console.WriteLine("3 - Apagar Cliente");
-    Console.WriteLine("4 - Sair");
-    Console.WriteLine("Digite sua Opção:\n");
-    opcao = Console.ReadLine();
-    
-    Console.WriteLine("\n######################################\n");
-
-    switch (opcao)
-    {
-        case "1":
-            Console.WriteLine("Cadastro de Cliente\n");
-            
-            break;
-        
-        case "2":
-            Console.WriteLine("Buscar Cliente\n");
-            break;
-        case "3":
-            Console.WriteLine("Apagar Cliente\n");
-            break;
-        case "4":
-        Console.WriteLine("Encerrar\n");
-            exibirMenu = false;
-            //Enviroment.exit(0)
-            break;
-        
-        default:
-            Console.WriteLine("Opção Inválida\n");
-            break;
-    }
-    Console.WriteLine("######################################\n");
+    Console.WriteLine($"Posição do Array: {contador} - {arrayInteiros[contador]}");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+//
+// string opcao;
+// bool exibirMenu = true;
+//
+// while (exibirMenu)
+// {
+//     Console.WriteLine("------Menu------");
+//     Console.WriteLine("1 - Cadastrar Cliente");
+//     Console.WriteLine("2 - Listar Cliente");
+//     Console.WriteLine("3 - Apagar Cliente");
+//     Console.WriteLine("4 - Sair");
+//     Console.WriteLine("Digite sua Opção:\n");
+//     opcao = Console.ReadLine();
+//     
+//     Console.WriteLine("\n######################################\n");
+//
+//     switch (opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro de Cliente\n");
+//             
+//             break;
+//         
+//         case "2":
+//             Console.WriteLine("Buscar Cliente\n");
+//             break;
+//         case "3":
+//             Console.WriteLine("Apagar Cliente\n");
+//             break;
+//         case "4":
+//         Console.WriteLine("Encerrar\n");
+//             exibirMenu = false;
+//             //Enviroment.exit(0)
+//             break;
+//         
+//         default:
+//             Console.WriteLine("Opção Inválida\n");
+//             break;
+//     }
+//     Console.WriteLine("######################################\n");
+// }
+//
 
 
 
@@ -89,6 +117,7 @@ while (exibirMenu)
 // }
 //
 
+//----------------------------------------------------------------------------------------------------------
 
 
 
