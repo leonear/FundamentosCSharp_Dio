@@ -9,15 +9,22 @@ arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 91;
 
-for (int contador = 0; contador < arrayInteiros.Length; contador++)
+Console.WriteLine("Percorrendo o array com o FOR ");
+//Percorrendo a array com FOR
+for (int contador = 0; contador < arrayInteiros.Length; contador++)//assim que é definido o numero de valores na array, não é possível consultar mais que o estabelecido
 {
     Console.WriteLine($"Posição do Array: {contador} - {arrayInteiros[contador]}");
 }
 
 
-
-
-
+Console.WriteLine("Percorrendo o array com o FOREACH ");
+int contadorForeach = 0;
+//Percorrendo o array com o FOREACH
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição do Array: {contadorForeach} - {valor}");
+    contadorForeach++;
+}
 
 
 
