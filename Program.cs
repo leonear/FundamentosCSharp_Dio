@@ -3,24 +3,54 @@
 
 
 
-int[] arrayInteiros = new int[3];
+List<string> listaString = new List<string>();
 
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 64;
-arrayInteiros[2] = 91;
-
-int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
-Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
-
-//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
 
 
 Console.WriteLine("Percorrendo o array com o FOR ");
-//Percorrendo a array com FOR
-for (int contador = 0; contador < arrayInteiros.Length; contador++)//assim que é definido o numero de valores na array, não é possível consultar mais que o estabelecido
+for (int contador = 0; contador < listaString.Count; contador++)
 {
-    Console.WriteLine($"Posição do Array: {contador} - {arrayInteiros[contador]}");
+    Console.WriteLine($"Posição {contador} - {listaString[contador]}");
 }
+
+Console.WriteLine("Percorrendo o array com o FOREACH ");
+int contadorForeach = 0;
+foreach (string item in listaString)
+{
+    Console.WriteLine($"Posição {contadorForeach} - {item}");
+    contadorForeach++;
+}
+
+
+
+
+
+
+
+
+
+
+// int[] arrayInteiros = new int[3];
+//
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 91;
+//
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+//
+// //Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+//
+//
+// Console.WriteLine("Percorrendo o array com o FOR ");
+// //Percorrendo a array com FOR
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)//assim que é definido o numero de valores na array, não é possível consultar mais que o estabelecido
+// {
+//     Console.WriteLine($"Posição do Array: {contador} - {arrayInteiros[contador]}");
+// }
 
 
 
